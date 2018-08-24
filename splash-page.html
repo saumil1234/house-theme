@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Houzez HTML5 Template</title>
+    <!--Meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Houzez HTML5 Template">
+    <meta name="description" content="Houzez HTML5 Template">
+    <meta name="author" content="Favethemes">
+
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap-select.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+    <div class="modal fade" id="pop-login" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <ul class="login-tabs">
+                        <li class="active">Login</li>
+                        <li>Register</li>
+                    </ul>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+
+                </div>
+                <div class="modal-body login-block">
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active">
+                            <div class="message">
+                                <p class="error text-danger"><i class="fa fa-close"></i> You are not Logedin</p>
+                                <p class="success text-success"><i class="fa fa-check"></i> You are not Logedin</p>
+                            </div>
+                            <form>
+                                <div class="form-group field-group">
+                                    <div class="input-user input-icon">
+                                        <input placeholder="Username">
+                                    </div>
+                                    <div class="input-email input-icon">
+                                        <input placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="forget-block clearfix">
+                                    <div class="form-group pull-left">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox">
+                                                Remember me
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group pull-right">
+                                        <a href="#" data-toggle="modal" data-dismiss="modal" data-target="#pop-reset-pass">I forgot username and password</a>
+                                    </div>
+                                </div>
+
+                                <div class="btn btn-primary btn-block">Login</div>
+                            </form>
+                            <hr>
+                            <a href="#" class="btn btn-social btn-bg-facebook btn-block"><i class="fa fa-facebook"></i> login with facebook</a>
+                            <a href="#" class="btn btn-social btn-bg-linkedin btn-block"><i class="fa fa-linkedin"></i> login with linkedin</a>
+                            <a href="#" class="btn btn-social btn-bg-google-plus btn-block"><i class="fa fa-google-plus"></i> login with Google</a>
+                        </div>
+                        <div class="tab-pane fade">
+                            <form>
+                                <div class="form-group field-group">
+                                    <div class="input-user input-icon">
+                                        <input placeholder="Username">
+                                    </div>
+                                    <div class="input-email input-icon">
+                                        <input placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">
+                                            I agree with your <a href="#">Terms & Conditions</a>.
+                                        </label>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary btn-block">Login</button>
+                            </form>
+                            <hr>
+
+                            <a href="#" class="btn btn-social btn-bg-facebook btn-block"><i class="fa fa-facebook"></i> login with facebook</a>
+                            <a href="#" class="btn btn-social btn-bg-linkedin btn-block"><i class="fa fa-linkedin"></i> login with linkedin</a>
+                            <a href="#" class="btn btn-social btn-bg-google-plus btn-block"><i class="fa fa-google-plus"></i> login with Google</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="pop-reset-pass" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <ul class="login-tabs">
+                    <li class="active">Reset Password</li>
+                </ul>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-close"></i></button>
+            </div>
+            <div class="modal-body">
+                <p>Please enter your username or email address. You will receive a link to create a new password via email.</p>
+                <form>
+                    <div class="form-group">
+                        <div class="input-user input-icon">
+                            <input placeholder="Enter your username or email" class="form-control">
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-block">Get new password</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!--start section top-->
+    <section id="splash-section">
+        <div class="splash-inner-media" style="background-image: url('http://placehold.it/1805x1203')"></div>
+        <div class="splash-inner-content">
+            <!--start section header-->
+            <header class="header-section houzez-header-main slpash-header nav-left">
+                <div class="header-mobile visible-sm visible-xs">
+                    <div class="container">
+                        <!--start mobile nav-->
+                        <div class="mobile-nav">
+                            <span class="nav-trigger"><i class="fa fa-navicon"></i></span>
+                            <div class="nav-dropdown main-nav-dropdown"></div>
+                        </div>
+                        <!--end mobile nav-->
+                        <div class="header-logo">
+                            <a href="#"><img src="images/logo-houzez-white.png" alt="logo"></a>
+                        </div>
+                        <div class="header-user">
+                            <div class="user">
+                                <a href="#" data-toggle="modal" data-target="#pop-login"><i class="fa fa-user"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hidden-sm hidden-xs">
+                    <div class="container">
+                        <div class="header-left">
+                            <div class="logo"><a href="index.html"><img src="images/logo-houzez-white.png" alt="logo"></a></div>
+                            <nav class="navi main-nav">
+                                <ul>
+                                    <li><a href="index.html">Home</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="home-splash.html">Homepage with Splash</a></li>
+                                            <li><a href="home-splash.html">Parallax</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="home-parallax.html">Parallax Standard</a></li>
+                                                    <li><a href="home-parallax-fullscreen.html">Parallax Fullscreen</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Sliders</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="home-property-slider.html">Property Slider</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Splash</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="splash-page.html">Splash Image</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Listing</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="properties-list.html">List View</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="properties-list.html">List View Standerd</a></li>
+                                                    <li><a href="properties-list-fullwidth.html">List View Fullwidth</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="properties-grid.html">Grid View</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="properties-grid.html">Grid View Standerd</a></li>
+                                                    <li><a href="properties-grid-fullwidth.html">Grid View Fullwidth</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="properties-list-compare.html">List With Compare Properties</a></li>
+                                            <li><a href="properties-list-save-search.html">List With Save Search</a></li>
+                                            <li><a href="map-listing.html">Listing With Map</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Property</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="propertie-detail.html">Single Property v1</a></li>
+                                            <li><a href="propertie-detail-v2.html">Single Property v2</a></li>
+                                            <li><a href="propertie-detail-v3.html">Single Property v3</a></li>
+                                            <li><a href="propertie-detail-multi-properties.html">Single Property With Multi Properties</a></li>
+                                            <li><a href="propertie-detail-tabs.html">Single Property Tabs v1</a></li>
+                                            <li><a href="propertie-detail-tabs-vertical.html">Single Property Tabs v2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Pages</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Agent</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="agent-list.html">All Agents</a></li>
+                                                    <li><a href="agent-detail.html">Agent Profile</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="company-profile.html">Company Profile</a></li>
+                                            <li><a href="compare-properties.html">Compare Properties</a></li>
+                                            <li><a href="landing-page.html">Landing Page</a></li>
+                                            <li><a href="about-us.html">About Houzez</a></li>
+                                            <li><a href="typography.html">Typography</a></li>
+                                            <li><a href="faqs.html">FAQs</a></li>
+                                            <li><a href="headers.html">Houzez Headers</a></li>
+                                            <li><a href="footer.html">Houzez Footers</a></li>
+                                            <li><a href="search-bars.html">Houzez Search Bars</a></li>
+                                            <li><a href="widgets.html">Houzez Widgets</a></li>
+                                            <li><a href="404.html">404 Page</a></li>
+                                            <li><a href="contact-us.html">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="all-modules.html">Modules</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="module-advanced-search.html">Advanced Search</a></li>
+                                            <li><a href="module-property-grids.html">Property Grids</a></li>
+                                            <li><a href="#">Property Carousels</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="module-property-carousel-v1.html">Property Carousel v1</a></li>
+                                                    <li><a href="module-property-carousel-v2.html">Property Carousel v2</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="module-property-cards.html">Property Cards Module</a></li>
+                                            <li><a href="module-property-by-id.html">Property by ID</a></li>
+                                            <li><a href="module-taxonomy-grids.html">Taxonomy Grids</a></li>
+                                            <li><a href="module-testimonials.html">Testimonials</a></li>
+                                            <li><a href="module-agents.html">Agents</a></li>
+                                            <li><a href="module-team.html">Team</a></li>
+                                            <li><a href="module-partners.html">Partners</a></li>
+                                            <li><a href="module-text-with-icons.html">Text with icons</a></li>
+                                            <li><a href="module-blog-post-carousels.html">Blog Post Carousels</a></li>
+                                            <li><a href="module-blog-post-grids.html">Blog Post Grids</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Blog</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="blog.html">Default Blog</a></li>
+                                            <li><a href="blog-post.html">Blog detail</a></li>
+                                            <li><a href="blog-masonry.html">Blog masonry</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="header-right">
+                            <div>
+                                <a href="#" data-toggle="modal" data-target="#pop-login">Sign In / Register</a>
+                                <a href="add-new-property.html" class="btn btn-default">Create Listing</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--end section header-->
+            <div class="splash-search">
+                <div class="search-table fave-screen-fix-inner">
+                    <div class="search-col">
+                        <h1>Welcome, Make Yourself At Home</h1>
+                        <form class="form-inline search-main">
+                            <div class="form-group">
+                                <select class="selectpicker" data-live-search="false" data-live-search-style="begins" title="Location">
+                                    <option>Location 1</option>
+                                    <option>Location 2</option>
+                                    <option>Location 3</option>
+                                    <option>Location 4</option>
+                                    <option>Location 5</option>
+                                </select>
+                                <div class="search">
+                                    <input class="form-control" type="text" placeholder="Enter Keyword">
+                                </div>
+                                <div class="search-btn">
+                                    <button class="btn btn-secondary"><i class="fa fa-search"></i> Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="splash-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-6 splash-foot-left">
+                            <p><i class="fa fa-phone-square"></i> CALL US FREE <strong>(800) 897 6543</strong></p>
+                        </div>
+                        <div class="col-sm-6 col-xs-6 splash-foot-right">
+                            <p>Follow us
+                                <a href="#" class="btn-facebook"><i class="fa fa-facebook-square"></i></a>
+                                <a href="#" class="btn-twitter"><i class="fa fa-twitter-square"></i></a>
+                                <a href="#" class="btn-linkedin"><i class="fa fa-linkedin-square"></i></a>
+                                <a href="#" class="btn-pinterest"><i class="fa fa-pinterest-square"></i></a>
+                                <a href="#" class="btn-google-plus"><i class="fa fa-google-plus-square"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end section top-->
+
+    <!--Start Scripts-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
+</body>
+</html>
